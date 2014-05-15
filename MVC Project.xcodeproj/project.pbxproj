@@ -21,6 +21,8 @@
 		03AE99FE19251B0500819801 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AE99E019251B0400819801 /* UIKit.framework */; };
 		03AE9A0619251B0500819801 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03AE9A0419251B0500819801 /* InfoPlist.strings */; };
 		03AE9A0819251B0500819801 /* MVC_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE9A0719251B0500819801 /* MVC_ProjectTests.m */; };
+		03AE9A131925440000819801 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE9A121925440000819801 /* Post.m */; };
+		03AE9A1619254BF700819801 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AE9A1519254BF700819801 /* PostTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		03AE9A0319251B0500819801 /* MVC ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVC ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		03AE9A0519251B0500819801 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03AE9A0719251B0500819801 /* MVC_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVC_ProjectTests.m; sourceTree = "<group>"; };
+		03AE9A111925440000819801 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		03AE9A121925440000819801 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		03AE9A1419254BF700819801 /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		03AE9A1519254BF700819801 /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +120,13 @@
 			children = (
 				03AE99EB19251B0400819801 /* AppDelegate.h */,
 				03AE99EC19251B0400819801 /* AppDelegate.m */,
+				03AE9A111925440000819801 /* Post.h */,
+				03AE9A121925440000819801 /* Post.m */,
 				03AE99EE19251B0400819801 /* Main.storyboard */,
 				03AE99F119251B0400819801 /* ViewController.h */,
 				03AE99F219251B0500819801 /* ViewController.m */,
+				03AE9A1419254BF700819801 /* PostTableViewCell.h */,
+				03AE9A1519254BF700819801 /* PostTableViewCell.m */,
 				03AE99F419251B0500819801 /* Images.xcassets */,
 				03AE99E319251B0400819801 /* Supporting Files */,
 			);
@@ -252,6 +262,8 @@
 				03AE99F319251B0500819801 /* ViewController.m in Sources */,
 				03AE99ED19251B0400819801 /* AppDelegate.m in Sources */,
 				03AE99E919251B0400819801 /* main.m in Sources */,
+				03AE9A131925440000819801 /* Post.m in Sources */,
+				03AE9A1619254BF700819801 /* PostTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
